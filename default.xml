@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
+  <remote  name="ox"
+           fetch="git://github.com/slimkat-otterx/" />
+
   <remote  name="github"
            fetch="git://github.com/"
            review="https://gerrit.slimroms.net/"/>
@@ -20,7 +23,7 @@
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="kk4.4" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="kk4.4" />
   <project path="developers/build" name="platform/developers/build" />
@@ -245,7 +248,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4" />
+  <project path="frameworks/native" name="ox/frameworks_native" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
@@ -466,5 +469,18 @@
 
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
+
+<!-- The otterx-device tree files -->
+  <project path="device/amazon/otterx" name="KFire-Android/android_device_amazon_otterx" remote="github" revision="cm-11.0" />
+<!-- The omap4-device tree files -->
+  <project path="device/amazon/omap4-common" name="CyanogenMod/android_device_amazon_omap4-common" remote="github" revision="cm-11.0" />
+<!-- The otter_common-device tree files -->
+  <project path="device/amazon/otter-common" name="CyanogenMod/android_device_amazon_otter-common" remote="github" revision="cm-11.0" />
+<!-- The otter-kernel -->
+  <project path="kernel/amazon/otter-common" name="CyanogenMod/android_kernel_amazon_otter-common" remote="github" revision="cm-11.0" />
+<!-- The wpa_suplicant_8_ti -->
+  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+<!-- The Muppets-otter-vendor -->
+  <project path="vendor/amazon" name="TheMuppets/proprietary_vendor_amazon" remote="github" revision="cm-11.0" />
 
 </manifest>
