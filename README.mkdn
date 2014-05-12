@@ -4,7 +4,7 @@ SlimKat-OtterX by Lovejoy777
 
 Getting Started
 
-To get started with Android/slimkat-otterx, you'll need to get familiar with Git and Repo.
+To get started with slimkat-otterx, you'll need to get familiar with Git and Repo.
 
 To initialize your local repository using the slimkat-otterx trees, use a command like this:
 
@@ -12,6 +12,7 @@ repo init -u git://github.com/slimkat-otterx/platform_manifest.git -b kk4.4
 Then to sync up:
 
 repo sync -j8
+
 Please see the CyanogenMod Wiki for building instructions.
 
 For more information on this Github Organization and how it is structured, please read the wiki article
