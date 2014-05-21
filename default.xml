@@ -231,7 +231,7 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="kk4.4" />
+  <!-- <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="kk4.4" /> -->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="kk4.4" />
@@ -477,6 +477,8 @@
   <project path="kernel/amazon/otter-common" name="CyanogenMod/android_kernel_amazon_otter-common" remote="github" revision="cm-11.0" />
 <!-- The wpa_suplicant_8_ti -->
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+<!-- The wpa_suplicant_8 -->
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-11.0" />
 <!-- The Muppets-otter-vendor -->
   <project path="vendor/amazon" name="TheMuppets/proprietary_vendor_amazon" remote="github" revision="cm-11.0" />
 
