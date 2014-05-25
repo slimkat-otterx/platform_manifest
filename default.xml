@@ -470,7 +470,7 @@
 <!-- The otter_common-device tree files -->
   <project path="device/amazon/otter-common" name="KFire-Android/android_device_amazon_otter-common" remote="github" revision="cm-11.0" />
 <!-- The otter-kernel -->
-  <project path="kernel/amazon/otter-common" name="KFire-Android/kernel_otter-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/amazon/otter-common" name="KFire-Android/kernel_omap_otter-common" remote="github" revision="cm-11.0" />
 <!-- KFire-Android/android_hardware_ti_wlan -->
 <project path="hardware/ti/wlan" name="KFire-Android/android_hardware_ti_wlan" remote="github" revision="cm-11.0" />
 <!-- KFire-Android/android_hardware_ti_wpan -->
