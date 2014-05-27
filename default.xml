@@ -483,8 +483,8 @@
 <project path="hardware/ti/omap4xxx" name="KFire-Android/android_hardware_ti_omap4xxx" remote="github" revision="cm-11.0" />
 <!-- slimkat-otterx/frameworks_native -->
 <project path="frameworks/native" name="slimkat-otterx/frameworks_native" remote="github" revision="kk4.4" />
-<!-- slimkat-otterx/frameworks_native -->
-<project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
+<!-- slimkat-otterx/bootable-recovery -->
+<project path="bootable/recovery" name="KFire-Android/android_bootable_recovery" remote="github" revision="cm-11.0" />
 <!-- The Muppets-otter-vendor -->
   <project path="vendor/amazon" name="TheMuppets/proprietary_vendor_amazon" remote="github" revision="cm-11.0" />
 
