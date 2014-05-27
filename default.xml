@@ -484,7 +484,7 @@
 <!-- slimkat-otterx/frameworks_native -->
 <project path="frameworks/native" name="slimkat-otterx/frameworks_native" remote="github" revision="kk4.4" />
 <!-- slimkat-otterx/bootable-recovery -->
-<project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-11.0" />
+<project path="bootable/recovery" name="OmniRom/android_bootable_recovery" remote="github" revision="kk4.4" />
 <!-- The Muppets-otter-vendor -->
   <project path="vendor/amazon" name="TheMuppets/proprietary_vendor_amazon" remote="github" revision="cm-11.0" />
 
